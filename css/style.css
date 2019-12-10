@@ -459,7 +459,7 @@ img {
     height: 100%; }
   .hero__scroll-down {
     font-family: 'Yeseva One', sans-serif;
-    font-size: 12px;
+    font-size: 0.85rem;
     line-height: 138.6%;
     position: absolute;
     display: flex;
