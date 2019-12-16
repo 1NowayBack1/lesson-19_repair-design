@@ -13,7 +13,7 @@
     &__instagram
       display: none
     &__content
-      margin-left: 0
+      margin: auto
 @media screen and ( max-width: 760px )
   .row 
     flex-direction: column
@@ -58,6 +58,9 @@
       margin-bottom: 1.85rem
 @media screen and ( max-height: 520px )
   .hero
+    &_content
+      justify-content: center
+      align-items: center
     &__scroll-down
       display: none
 /* added at lesson #19*/
@@ -66,6 +69,10 @@
   .menu
     &__logo
       font-size: 0.85rem
+  /* section header */
+  .hero
+    &__content
+      margin: auto
   /* section control */
   .section-control
     background-color: $dark
